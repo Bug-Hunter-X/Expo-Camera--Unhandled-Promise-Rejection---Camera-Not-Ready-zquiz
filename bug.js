@@ -1,0 +1,1 @@
+This error typically occurs when using Expo's `Camera` API and attempting to access a camera feature (like taking a photo) before the camera has fully initialized.  The `Camera` component's `onCameraReady` prop is crucial to resolve this issue.  The code below demonstrates the problem and the solution.
