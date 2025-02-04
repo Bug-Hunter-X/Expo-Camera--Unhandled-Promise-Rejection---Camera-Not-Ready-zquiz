@@ -1,0 +1,1 @@
+This repository demonstrates a common error encountered when using the Expo Camera API: an unhandled promise rejection due to attempting to access camera functions before it's fully initialized. The `bug.js` file showcases the problematic code, while `bugSolution.js` provides the corrected version using the `onCameraReady` prop for proper initialization.
